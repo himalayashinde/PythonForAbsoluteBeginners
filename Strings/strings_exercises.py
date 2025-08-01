@@ -18,4 +18,4 @@ print(quote[:4])  # Slice from beginning up to (but not including) index 4
 # 6. Get the string slice "do it!" from the variable and concatenate it with "Don't "
 slice_part = quote[5:]  # "do it!" from index 5 to end
 result = "Don't " + slice_part  # Concatenating "Don't " with "do it!"
-print(result)  # Output: "Don't do it!"
+print(result)  # Output: "Don't do it!
